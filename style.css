@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.project-image{
+    width: 500px;
+    border-radius: 2px;
+    align-self: center;
+}
+.project-name{
+    text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    margin-top: 25px;
+}
+
+.link{
+    color: black;
+    border: .09em rgba(255, 0, 0, 0.562) solid;
+    padding: 1em;
+    border-radius: 1.2em;
+}
+
+.link:hover{
+    background-color: aqua;
+    border: none;
+}
