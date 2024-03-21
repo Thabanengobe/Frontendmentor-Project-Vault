@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+main{
+    display: grid;
+    place-content: center;
+}
+
+body{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 1.6em;
+    color: hsla(0, 0%,100%,0.75);
+}
+.cars{
+    display: flex;
+    margin: 2em;
+}
+
+.car-name{
+    font-family: 'Big Shoulders Display';
+    font-family: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.vihicle-type{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 4em 3em;
+}
+
+.car{
+    width: 50px;
+}
+
+.more{
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+    color: inherit;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: .8em;
+    border-bottom-left-radius: .8em;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179,100%, 13%);
+    border-top-right-radius: .8em;
+    border-bottom-right-radius: .8em;
+}
+
+.more{
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans .more{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs .more{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .more{
+    color: hsl(179,100%, 13%);
+}
+.learn-more{
+    margin-top: 3em;
+}
+
+.more:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: inherit;
+    border: .1em hsl(0, 0%, 95%) solid;
+}
+
+
+@media (max-width: 930px){
+    .cars{
+        flex-direction: column;
+    }
+    .sedans{
+        border-top-right-radius: .8em;
+        border-bottom-left-radius: 0em;
+    }
+    .luxury{
+        border-bottom-left-radius: .8em;
+        border-top-right-radius: 0em;
+    }
+}

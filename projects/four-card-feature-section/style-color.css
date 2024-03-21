@@ -1,0 +1,31 @@
+:root{
+    /*Primary colors*/
+    --red:hsl(0, 78%, 62%);
+    --cyan:hsl(180, 62%, 55%);
+    --orange:hsl(34, 97%, 64%);
+    --blue:hsl(212, 86%, 64%);
+
+    /*neutral*/
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue:hsl(229, 6%, 66%);
+    --very-light-grey:hsl(0, 0%, 98%);
+}
+
+.sevice{
+    background-color: var(--very-light-grey);
+    box-shadow: .1em .1em .1em .1em var(--grayish-blue);
+}
+.team{
+    border-top: .2em var(--red) solid;
+}
+.supervisor{
+    border-top: .2em var(--cyan) solid;
+}
+.calculator{
+    border-top: .2em var(--blue) solid;
+}
+
+.karma{
+    border-top: .2em var(--orange) solid;
+}
+

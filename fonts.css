@@ -1,0 +1,33 @@
+.montserrat-subrayada-regular {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-subrayada-bold {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.harmattan-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.harmattan-medium {
+  font-family: "Harmattan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.harmattan-semibold {
+  font-family: "Harmattan", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.harmattan-bold {
+  font-family: "Harmattan", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

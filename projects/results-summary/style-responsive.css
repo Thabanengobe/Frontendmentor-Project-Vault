@@ -1,0 +1,26 @@
+
+@media all and (max-width:811px) {
+    .container{
+        width: 70%;
+    }
+    
+}
+
+@media all and (max-width:570px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        place-content: center;
+        width: 90%;
+    }
+    .results{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .summary{
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .feedback{
+        padding: 1em 3em 2em 3em;
+    }
+}

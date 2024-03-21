@@ -1,0 +1,94 @@
+@import url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+@import url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+
+
+:root{
+    --yellow : hsl(47, 88%, 63%);
+    --white  : hsl(0, 0%, 100%);
+    --grey   : hsl(0, 0%, 50%);
+    --black  : hsl(0, 0%, 7%);
+    --fontSize : 16px;
+    --font : 'Figtree';
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    
+    background-color: var(--yellow);
+    display: grid;
+    justify-content: center;
+    margin: 2em 0em;
+    font-family: var(--font), sans-serif;
+    font-size: var(--fontSize),;
+    color: var(--black);
+}
+
+
+h1{
+    font-weight: 600;
+}
+.Hooper{
+    font-weight: 800;
+    align-self: center;
+}
+.logo{
+    border-radius: .5em;
+}
+
+.content{
+    color: var(--grey);
+    font-size: 16px;
+}
+
+.learning{
+    background-color: var(--yellow);
+    width: fit-content;
+    font-weight: 600;
+    padding: .5em 1.5em;
+    border-radius: .3em;
+}
+.illustration{
+    background-color: var(--white);
+    border-radius: 1.5em;
+    width: 400px;
+    padding: 1.4em;
+    box-shadow: 10px 10px var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.avator{
+    width: 40px;
+    height: 40px;
+}
+
+.profile{
+    display: flex;
+    gap: .9em;
+    align-items: start;
+}
+
+h1:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+.attribution{
+
+    font-size: 11px;
+    margin-top: 2em;
+    align-items: end;
+    
+}
+@media (max-width: 450px){
+    .illustration{
+        width: 290px;
+    }
+    .logo{
+        width: 280px;
+    }
+}

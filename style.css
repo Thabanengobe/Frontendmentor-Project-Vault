@@ -4,39 +4,22 @@
     text-decoration: none;
 }
 
-.projects{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-}
-.project{
-    display: flex;
-    flex-direction: column;
-    gap: .5em;
-}
-.project-image{
-    width: 500px;
-    border-radius: 2px;
-    align-self: center;
-}
-.project-name{
-    text-align: center;
-}
-.links{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: smaller;
-    margin-top: 25px;
+body{
+  font-family: "Harmattan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
 }
 
-.link{
-    color: black;
-    border: .09em rgba(255, 0, 0, 0.562) solid;
-    padding: 1em;
-    border-radius: 1.2em;
+.heading{
+    
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
-
-.link:hover{
-    background-color: aqua;
-    border: none;
+.github{
+    width: 32px;
+}
+.mentor{
+    height: 32px;
 }
